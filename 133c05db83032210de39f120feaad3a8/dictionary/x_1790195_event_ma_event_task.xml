@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="65bcd55383832210de39f120feaad376" extends="task" label="Event Task" max_length="40" name="x_1790195_event_ma_event_task" type="collection">
+        <element attributes="encode_utf8=false" label="Event Id" max_length="32" name="x_event_id" reference="x_1790195_event_ma_event_record" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Due Date" max_length="40" name="x_due_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Task Name" max_length="40" name="x_task_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="string">
             <choice>
                 <element inactive_on_update="false" label="In Progress" sequence="2" value="in progress"/>
@@ -10,6 +13,18 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Task Name" max_length="40" name="task_name" type="string"/>
+        <element label="Mark as Complete" max_length="40" name="x_mark_as_complete" type="boolean"/>
         <element attributes="encode_utf8=false" label="Event Id" max_length="32" name="event_id" reference="x_1790195_event_ma_event_record" type="reference"/>
+        <element label="Mark as Complete" max_length="40" name="mark_as_complete" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="completed" label="Status" max_length="40" name="x_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Not Started" sequence="1" value="not started"/>
+                <element inactive_on_update="false" label="Completed" sequence="3" value="completed"/>
+                <element inactive_on_update="false" label="In Progress" sequence="2" value="in progress"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="4" value="cancelled"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Assigned To" max_length="32" name="x_assigned_to" reference="sys_user" type="reference"/>
     </element>
 </database>

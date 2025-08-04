@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>rating</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Display a thank you message  based on th</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+   g_form.showFieldMsg("Thank you for rating our services " + newValue);
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-04 11:17:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dc5bb1d783072210de39f120feaad3ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Display a thank you message  based on th</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1790195_event_ma">133c05db83032210de39f120feaad3a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp;amp; Planning System">133c05db83032210de39f120feaad3a8</sys_scope>
+        <sys_update_name>sys_script_client_dc5bb1d783072210de39f120feaad3ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-04 11:17:23</sys_updated_on>
+        <table>x_1790195_event_ma_feedback</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Management &amp;amp; Planning System">133c05db83032210de39f120feaad3a8</application>
+        <file_path/>
+        <instance_id>20148194eb7f8ad4e9bbfddacad0cde4</instance_id>
+        <instance_name>dev283588</instance_name>
+        <name>sys_script_client_dc5bb1d783072210de39f120feaad3ae</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;rating&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Display a thank you message  based on th&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+   g_form.showFieldMsg("Thank you for rating our services " + newValue);
+   //Type appropriate comment here, and begin script below
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-04 11:17:23&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;dc5bb1d783072210de39f120feaad3ae&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Display a thank you message  based on th&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Event Management &amp;amp;amp; Planning System" source="x_1790195_event_ma"&gt;133c05db83032210de39f120feaad3a8&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Event Management &amp;amp;amp; Planning System"&gt;133c05db83032210de39f120feaad3a8&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_dc5bb1d783072210de39f120feaad3ae&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-04 11:17:23&lt;/sys_updated_on&gt;&lt;table&gt;x_1790195_event_ma_feedback&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1713567828</payload_hash>
+        <record_name>Display a thank you message  based on th</record_name>
+        <reverted_from/>
+        <source>91cded9783c32210de39f120feaad36f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-04 11:17:23</sys_created_on>
+        <sys_id>d05bb1d783072210de39f120feaad3b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19874cceb0d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-04 11:17:23</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>d45bb1d7dd072210ccd48e38b75360b0</update_guid>
+        <update_guid_history>d45bb1d7dd072210ccd48e38b75360b0:-1713567828</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-04 11:17:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0e5a043c7a38497497dd69693165ed90</sys_id>
+        <sys_metadata>dc5bb1d783072210de39f120feaad3ae</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Display a thank you message  based on th</sys_name>
+        <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1790195_event_ma">133c05db83032210de39f120feaad3a8</sys_package>
+        <sys_parent display_value="Feedback">d53aa59383c32210de39f120feaad3eb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp;amp; Planning System">133c05db83032210de39f120feaad3a8</sys_scope>
+        <sys_scope_delete display_value="">0a3e1f83c66c442c82c5cd97d821f910</sys_scope_delete>
+        <sys_update_name>sys_script_client_dc5bb1d783072210de39f120feaad3ae</sys_update_name>
+        <sys_update_version display_value="sys_script_client_dc5bb1d783072210de39f120feaad3ae">d05bb1d783072210de39f120feaad3b1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-04 11:17:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -4,69 +4,69 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-04 09:50:05</sys_created_on>
-            <sys_id>9d57299f83832210de39f120feaad3c0</sys_id>
+            <sys_created_on>2025-08-04 20:41:08</sys_created_on>
+            <sys_id>1a5cb393838f2210de39f120feaad334</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Budget Details:" display_value="Budget Details:" name="x_1790195_event_ma_budget" sys_domain="global" view="Default view">2bb6a95f83832210de39f120feaad377</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-04 09:50:05</sys_updated_on>
+            <sys_updated_on>2025-08-04 20:41:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>event_id</element>
+            <element>x_event_id</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-04 09:50:05</sys_created_on>
-            <sys_id>1557299f83832210de39f120feaad3c1</sys_id>
+            <sys_created_on>2025-08-04 20:41:08</sys_created_on>
+            <sys_id>9e5cb393838f2210de39f120feaad334</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Budget Details:" display_value="Budget Details:" name="x_1790195_event_ma_budget" sys_domain="global" view="Default view">2bb6a95f83832210de39f120feaad377</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-04 09:50:05</sys_updated_on>
+            <sys_updated_on>2025-08-04 20:41:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>total_budget</element>
+            <element>x_total_budget</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-04 09:50:05</sys_created_on>
-            <sys_id>9957299f83832210de39f120feaad3c1</sys_id>
+            <sys_created_on>2025-08-04 20:41:08</sys_created_on>
+            <sys_id>165cb393838f2210de39f120feaad335</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Budget Details:" display_value="Budget Details:" name="x_1790195_event_ma_budget" sys_domain="global" view="Default view">2bb6a95f83832210de39f120feaad377</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-04 09:50:05</sys_updated_on>
+            <sys_updated_on>2025-08-04 20:41:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>amount_spent</element>
+            <element>x_amount_spent</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-04 09:50:05</sys_created_on>
-            <sys_id>1157299f83832210de39f120feaad3c2</sys_id>
+            <sys_created_on>2025-08-04 20:41:08</sys_created_on>
+            <sys_id>9a5cb393838f2210de39f120feaad335</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Budget Details:" display_value="Budget Details:" name="x_1790195_event_ma_budget" sys_domain="global" view="Default view">2bb6a95f83832210de39f120feaad377</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-04 09:50:05</sys_updated_on>
+            <sys_updated_on>2025-08-04 20:41:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>amount_remaining</element>
+            <element>x_amount_remaining</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-04 09:50:05</sys_created_on>
-            <sys_id>9557299f83832210de39f120feaad3c2</sys_id>
+            <sys_created_on>2025-08-04 20:41:08</sys_created_on>
+            <sys_id>125cb393838f2210de39f120feaad336</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Budget Details:" display_value="Budget Details:" name="x_1790195_event_ma_budget" sys_domain="global" view="Default view">2bb6a95f83832210de39f120feaad377</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-04 09:50:05</sys_updated_on>
+            <sys_updated_on>2025-08-04 20:41:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

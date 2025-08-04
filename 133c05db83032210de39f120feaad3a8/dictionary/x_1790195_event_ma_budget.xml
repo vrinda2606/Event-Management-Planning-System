@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="1066e15f83832210de39f120feaad3e5" extends="task" label="Budget" max_length="40" name="x_1790195_event_ma_budget" type="collection">
+        <element attributes="encode_utf8=false" label="Event Id" max_length="32" name="x_event_id" reference="x_1790195_event_ma_event_record" type="reference"/>
         <element attributes="omit_sys_original=true" label="Amount Spent" max_length="20" name="amount_spent" type="currency"/>
         <element attributes="omit_sys_original=true" label="Amount Remaining" max_length="20" name="amount_remaining" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Amount Remaining" max_length="20" name="x_amount_remaining" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Total Budget" max_length="20" name="x_total_budget" type="currency"/>
         <element attributes="encode_utf8=false" label="Event Id" max_length="32" name="event_id" reference="cmdb_multisource_deny_class" type="reference"/>
+        <element attributes="omit_sys_original=true" label="Amount Spent" max_length="20" name="x_amount_spent" type="currency"/>
         <element attributes="omit_sys_original=true" label="Total Budget" max_length="20" name="total_budget" type="currency"/>
     </element>
 </database>

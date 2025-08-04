@@ -4,13 +4,13 @@
             <element>process_flow.xml</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-04 09:02:58</sys_created_on>
-            <sys_id>978cd15383832210de39f120feaad3e0</sys_id>
+            <sys_created_on>2025-08-04 20:32:37</sys_created_on>
+            <sys_id>e16a3fdf834f2210de39f120feaad3bd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Process Flow">329b15db83432210de39f120feaad378</sys_ui_formatter>
             <sys_ui_section caption="Event Information:" display_value="Event Information:" name="x_1790195_event_ma_event_record" sys_domain="global" view="Default view">37c8551f83432210de39f120feaad30f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-04 09:02:58</sys_updated_on>
+            <sys_updated_on>2025-08-04 20:32:37</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
@@ -18,69 +18,97 @@
             <element>number</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-04 09:02:58</sys_created_on>
-            <sys_id>578cd15383832210de39f120feaad3e1</sys_id>
+            <sys_created_on>2025-08-04 20:32:37</sys_created_on>
+            <sys_id>616a3fdf834f2210de39f120feaad3be</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Event Information:" display_value="Event Information:" name="x_1790195_event_ma_event_record" sys_domain="global" view="Default view">37c8551f83432210de39f120feaad30f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-04 09:02:58</sys_updated_on>
+            <sys_updated_on>2025-08-04 20:32:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>event_name</element>
+            <element>x_event_name</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-04 09:02:58</sys_created_on>
-            <sys_id>db8cd15383832210de39f120feaad3e1</sys_id>
+            <sys_created_on>2025-08-04 20:32:37</sys_created_on>
+            <sys_id>e56a3fdf834f2210de39f120feaad3be</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Event Information:" display_value="Event Information:" name="x_1790195_event_ma_event_record" sys_domain="global" view="Default view">37c8551f83432210de39f120feaad30f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-04 09:02:58</sys_updated_on>
+            <sys_updated_on>2025-08-04 20:32:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>event_date</element>
+            <element>x_event_date</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-04 09:02:58</sys_created_on>
-            <sys_id>538cd15383832210de39f120feaad3e2</sys_id>
+            <sys_created_on>2025-08-04 20:32:37</sys_created_on>
+            <sys_id>6d6a3fdf834f2210de39f120feaad3be</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Event Information:" display_value="Event Information:" name="x_1790195_event_ma_event_record" sys_domain="global" view="Default view">37c8551f83432210de39f120feaad30f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-04 09:02:58</sys_updated_on>
+            <sys_updated_on>2025-08-04 20:32:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>location</element>
+            <element>x_location</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-04 09:02:58</sys_created_on>
-            <sys_id>d78cd15383832210de39f120feaad3e2</sys_id>
+            <sys_created_on>2025-08-04 20:32:37</sys_created_on>
+            <sys_id>e16a3fdf834f2210de39f120feaad3bf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Event Information:" display_value="Event Information:" name="x_1790195_event_ma_event_record" sys_domain="global" view="Default view">37c8551f83432210de39f120feaad30f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-04 09:02:58</sys_updated_on>
+            <sys_updated_on>2025-08-04 20:32:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>status</element>
+            <element>x_status</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-04 09:02:58</sys_created_on>
-            <sys_id>5f8cd15383832210de39f120feaad3e2</sys_id>
+            <sys_created_on>2025-08-04 20:32:37</sys_created_on>
+            <sys_id>696a3fdf834f2210de39f120feaad3bf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Event Information:" display_value="Event Information:" name="x_1790195_event_ma_event_record" sys_domain="global" view="Default view">37c8551f83432210de39f120feaad30f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-04 09:02:58</sys_updated_on>
+            <sys_updated_on>2025-08-04 20:32:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_vip</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-04 20:32:37</sys_created_on>
+            <sys_id>ed6a3fdf834f2210de39f120feaad3bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Event Information:" display_value="Event Information:" name="x_1790195_event_ma_event_record" sys_domain="global" view="Default view">37c8551f83432210de39f120feaad30f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-04 20:32:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_finished</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-04 20:32:37</sys_created_on>
+            <sys_id>656a3fdf834f2210de39f120feaad3c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Event Information:" display_value="Event Information:" name="x_1790195_event_ma_event_record" sys_domain="global" view="Default view">37c8551f83432210de39f120feaad30f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-04 20:32:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
