@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1790195_event_ma_feedback">rating=good^EQ<item display_value="Good" endquery="false" field="rating" goto="false" newquery="false" operator="=" or="false" value="good"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Good</label>
+        <name>Rating</name>
+        <order>30</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-04 10:08:56</sys_created_on>
+        <sys_id>a5aba11783c32210de39f120feaad305</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Rating</sys_name>
+        <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1790195_event_ma">133c05db83032210de39f120feaad3a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp;amp; Planning System">133c05db83032210de39f120feaad3a8</sys_scope>
+        <sys_update_name>sys_process_flow_a5aba11783c32210de39f120feaad305</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-04 10:08:56</sys_updated_on>
+        <table>x_1790195_event_ma_feedback</table>
+    </sys_process_flow>
+</record_update>

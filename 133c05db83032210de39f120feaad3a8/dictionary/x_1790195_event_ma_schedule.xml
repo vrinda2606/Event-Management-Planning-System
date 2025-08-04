@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="5e39a15383c32210de39f120feaad340" extends="task" label="Schedule" max_length="40" name="x_1790195_event_ma_schedule" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="End Time" max_length="40" name="end_time" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Activity Name" max_length="40" name="activity_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Time" max_length="40" name="start_time" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Event Id" max_length="32" name="event_id" reference="x_1790195_event_ma_event_record" type="reference"/>
+    </element>
+</database>
