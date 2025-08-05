@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Event_task</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+    var utils = new TaskUtils();
+    var raw = utils.fetchAllTasks();
+
+    try {
+        data.tasks = JSON.parse(raw);
+    } catch (e) {
+        data.tasks = [];
+    }
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 18:13:04</sys_created_on>
+        <sys_id>f2dd5077830f2210de39f120feaad323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event_task</sys_name>
+        <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1790195_event_ma">133c05db83032210de39f120feaad3a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp;amp; Planning System">133c05db83032210de39f120feaad3a8</sys_scope>
+        <sys_update_name>sp_widget_f2dd5077830f2210de39f120feaad323</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 18:13:04</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-default">
+  <div class="panel-heading"><h3 class="panel-title">All Tasks</h3></div>
+  <div class="table-responsive">
+    <table class="table table-striped table-bordered table-hover table-condensed">
+      <thead>
+        <tr>
+          <th>Task Number</th>
+          <th>Task Name</th>
+          <th>State</th>
+          <th>Due Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="task in c.data.tasks">
+          <td>{{task.number}}</td>
+          <td>{{task.task_name}}</td>
+          <td>{{task.state}}</td>
+          <td>{{task.due_date}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

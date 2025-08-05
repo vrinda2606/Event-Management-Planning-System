@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais">
+    <sp_instance_ais action="DELETE">
+        <active>true</active>
+        <ai_search_source_filter/>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <disable_all_suggestions>false</disable_all_suggestions>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <placeholder/>
+        <roles/>
+        <search_application/>
+        <search_results_configuration/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">f116c83b838b2210de39f120feaad364</sp_column>
+        <sp_widget display_value="Homepage Search">200fbd96cb20020000f8d856634c9ca1</sp_widget>
+        <spell_check_font_size>xl</spell_check_font_size>
+        <sys_class_name>sp_instance_ais</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 16:02:20</sys_created_on>
+        <sys_id>cc260c3b838b2210de39f120feaad334</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1790195_event_ma">133c05db83032210de39f120feaad3a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp;amp; Planning System">133c05db83032210de39f120feaad3a8</sys_scope>
+        <sys_update_name>sp_instance_ais_cc260c3b838b2210de39f120feaad334</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 16:02:20</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_ais>
+    <sys_translated_text action="DELETE" query="documentkey=cc260c3b838b2210de39f120feaad334"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Management &amp;amp; Planning System">133c05db83032210de39f120feaad3a8</application>
+        <file_path/>
+        <instance_id>20148194eb7f8ad4e9bbfddacad0cde4</instance_id>
+        <instance_name>dev283588</instance_name>
+        <name>sp_instance_ais_cc260c3b838b2210de39f120feaad334</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais"><sp_instance_ais action="INSERT_OR_UPDATE"><active>true</active><ai_search_source_filter/><class_name/><color>default</color><css/><disable_all_suggestions>false</disable_all_suggestions><glyph/><id/><order>1</order><placeholder/><roles/><search_application/><search_results_configuration/><short_description/><size>md</size><sp_column display_value="1">f116c83b838b2210de39f120feaad364</sp_column><sp_widget display_value="Homepage Search">200fbd96cb20020000f8d856634c9ca1</sp_widget><spell_check_font_size>xl</spell_check_font_size><sys_class_name>sp_instance_ais</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-05 16:02:20</sys_created_on><sys_id>cc260c3b838b2210de39f120feaad334</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Event Management &amp;amp; Planning System" source="x_1790195_event_ma">133c05db83032210de39f120feaad3a8</sys_package><sys_policy/><sys_scope display_value="Event Management &amp;amp; Planning System">133c05db83032210de39f120feaad3a8</sys_scope><sys_update_name>sp_instance_ais_cc260c3b838b2210de39f120feaad334</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-05 16:02:20</sys_updated_on><title/><url/><widget_parameters/></sp_instance_ais><sys_translated_text action="delete_multiple" query="documentkey=cc260c3b838b2210de39f120feaad334"/></record_update>]]></payload>
+        <payload_hash>2091505523</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c880ee6f83832210de39f120feaad3a9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 16:02:20</sys_created_on>
+        <sys_id>08260c3b838b2210de39f120feaad337</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1987af828450000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 16:02:20</sys_updated_on>
+        <type>Instance with Search</type>
+        <update_guid>0c260c3bcf8b2210f2093fe0af75cd36</update_guid>
+        <update_guid_history>0c260c3bcf8b2210f2093fe0af75cd36:2091505523</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">9c86807b838b2210de39f120feaad3d8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 16:03:59</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_ais">sp_instance_ais</sys_db_object>
+        <sys_id>0595028d43f9455480342404b7789b24</sys_id>
+        <sys_metadata>cc260c3b838b2210de39f120feaad334</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1790195_event_ma">133c05db83032210de39f120feaad3a8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp;amp; Planning System">133c05db83032210de39f120feaad3a8</sys_scope>
+        <sys_scope_delete display_value="">0a3e1f83c66c442c82c5cd97d821f910</sys_scope_delete>
+        <sys_update_name>sp_instance_ais_cc260c3b838b2210de39f120feaad334</sys_update_name>
+        <sys_update_version display_value="sp_instance_ais_cc260c3b838b2210de39f120feaad334">08260c3b838b2210de39f120feaad337</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 16:03:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

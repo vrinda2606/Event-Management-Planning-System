@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function($scope) {
+  var c = this;
+
+  c.loadEvents = function() {
+    c.events = angular.copy(c.data.events || []);
+  };
+
+  c.deleteEvent = function(eventNumber) {
+    if (confirm("Are you sure you want to delete event " + eventNumber + "?")) {
+      c.server.update({ action: 'deleteEvent', eventNumber: eventNumber }).then(function(response) {
+        if (response) {
+          alert("Event deleted successfully.");
+          c.refreshEvents();
+        } else {
+          alert("Failed to delete event.");
+        }
+      });
+    }
+  };
+
+  c.openRescheduleModal = function(event) {
+    var newDate = prompt("Enter new event date (YYYY-MM-DD HH:mm:ss):", event.event_date);
+    if (newDate) {
+      c.server.update({ action: 'rescheduleEvent', eventNumber: event.number, newDate: newDate }).then(function(success) {
+        if (success) {
+          alert("Event rescheduled successfully.");
+          c.refreshEvents();
+        } else {
+          alert("Failed to reschedule event.");
+        }
+      });
+    }
+  };
+
+  c.refreshEvents = function() {
+    $scope.server.get().then(function(response) {
+      c.events = angular.copy(response.data.events || []);
+    });
+  };
+
+  c.loadEvents();
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>event_dashboard_widget</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Event Dashboard Widget</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+    var utils = new EventUtils();
+    var raw = utils.fetchAllEvents();
+
+    try {
+        data.events = JSON.parse(raw);
+    } catch (e) {
+        data.events = [];
+    }
+
+    // Handle client update calls safely
+    if (typeof input !== "undefined" && input.action) {
+        if (input.action == 'deleteEvent') {
+            gs.info("Deleting event: " + input.eventNumber);
+            data.result = deleteEvent(input.eventNumber);
+        } else if (input.action == 'rescheduleEvent') {
+            gs.info("Rescheduling event: " + input.eventNumber + " to: " + input.newDate);
+            data.result = rescheduleEvent(input.eventNumber, input.newDate);
+        }
+    }
+
+    // Function to delete event by event number
+    function deleteEvent(eventNumber) {
+        var gr = new GlideRecord('x_1790195_event_ma_event_record');
+        gr.addQuery('number', eventNumber);
+        gr.query();
+        if (gr.next()) {
+            gr.deleteRecord();
+            return true;
+        }
+        return false;
+    }
+
+    // Function to reschedule event by event number and new date
+    function rescheduleEvent(eventNumber, newDate) {
+        var gr = new GlideRecord('x_1790195_event_ma_event_record');
+        gr.addQuery('number', eventNumber);
+        gr.query();
+        if (gr.next()) {
+            gr.setValue('x_event_date', newDate);
+            gr.update();
+            return true;
+        }
+        return false;
+    }
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 16:41:57</sys_created_on>
+        <sys_id>503f8cf383cb2210de39f120feaad306</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Event Dashboard Widget</sys_name>
+        <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1790195_event_ma">133c05db83032210de39f120feaad3a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp;amp; Planning System">133c05db83032210de39f120feaad3a8</sys_scope>
+        <sys_update_name>sp_widget_503f8cf383cb2210de39f120feaad306</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 18:58:47</sys_updated_on>
+        <template><![CDATA[<div class="table-responsive" style="width:100%;">
+  <table class="table table-striped table-bordered table-hover table-condensed" style="width:100%;">
+    <thead>
+      <tr>
+        <th>Event Number</th>
+        <th>Event Name</th>
+        <th>Date</th>
+        <th>Location</th>
+        <th>Summary</th>
+        <th>Actions</th> <!-- New column for buttons -->
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="event in c.data.events">
+        <td>{{event.number}}</td>
+        <td>{{event.event_name}}</td>
+        <td>{{event.event_date}}</td>
+        <td>{{event.location}}</td>
+        <td>{{event.summary}}</td>
+        <td>
+          <button class="btn btn-danger btn-xs" ng-click="c.deleteEvent(event.number)">Delete</button>
+          <button class="btn btn-primary btn-xs" ng-click="c.openRescheduleModal(event)">Reschedule</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>]]></template>
+    </sp_widget>
+</record_update>

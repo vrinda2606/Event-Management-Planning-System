@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Vendors Dashboard</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+    var utils = new VendorUtils();
+    var raw = utils.fetchAllVendors();
+
+    try {
+        data.vendors = JSON.parse(raw);
+    } catch (e) {
+        data.vendors = [];
+    }
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 18:48:18</sys_created_on>
+        <sys_id>bceb6473834f2210de39f120feaad3b5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Vendors Dashboard</sys_name>
+        <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1790195_event_ma">133c05db83032210de39f120feaad3a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp;amp; Planning System">133c05db83032210de39f120feaad3a8</sys_scope>
+        <sys_update_name>sp_widget_bceb6473834f2210de39f120feaad3b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 18:57:00</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-default">
+  <div class="panel-heading"><h3 class="panel-title">All Vendors</h3></div>
+  <div class="table-responsive">
+    <table class="table table-striped table-bordered table-hover table-condensed">
+      <thead>
+        <tr>
+          <th>Vendor Number</th>
+          <th>Vendor Name</th>
+          <th>Contact Person</th>
+          <th>Contact Number</th>
+          <th>Available</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="vendor in c.data.vendors">
+          <td>{{vendor.number}}</td>
+          <td>{{vendor.vendor_name}}</td>
+          <td>{{vendor.contact_person}}</td>
+          <td>{{vendor.contact_number}}</td>
+          <td>{{vendor.available}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>
