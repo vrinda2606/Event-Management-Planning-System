@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="c48855db83432210de39f120feaad350" extends="task" label="Event Record" max_length="40" name="x_1790195_event_ma_event_record" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Event Name" max_length="40" name="x_event_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Location" max_length="40" name="x_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" audit="true" label="Location" max_length="40" name="x_location" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="x_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Contact Person" max_length="40" name="contact_person" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Event Date" max_length="40" name="x_event_date" type="glide_date_time"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="x_status" type="string">
+        <element attributes="edge_encryption_enabled=true" audit="true" label="Event Date" max_length="40" name="x_event_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" audit="true" choice="1" label="Status" max_length="40" name="x_status" type="string">
             <choice>
                 <element inactive_on_update="false" label="Scheduled" sequence="2" value="scheduled"/>
                 <element inactive_on_update="false" label="Cancelled" sequence="4" value="cancelled"/>

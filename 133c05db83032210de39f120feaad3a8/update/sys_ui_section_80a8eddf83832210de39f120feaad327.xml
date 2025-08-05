@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-05 06:36:20</sys_created_on>
-            <sys_id>8d948aab83032210de39f120feaad350</sys_id>
+            <sys_created_on>2025-08-05 11:27:53</sys_created_on>
+            <sys_id>7b470f6f83472210de39f120feaad301</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Venue Details:" display_value="Venue Details:" name="x_1790195_event_ma_venue" sys_domain="global" view="Default view">80a8eddf83832210de39f120feaad327</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-05 06:36:20</sys_updated_on>
+            <sys_updated_on>2025-08-05 11:27:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>x_venue_name</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-05 06:36:20</sys_created_on>
-            <sys_id>09948aab83032210de39f120feaad351</sys_id>
+            <sys_created_on>2025-08-05 11:27:53</sys_created_on>
+            <sys_id>ff470f6f83472210de39f120feaad301</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Venue Details:" display_value="Venue Details:" name="x_1790195_event_ma_venue" sys_domain="global" view="Default view">80a8eddf83832210de39f120feaad327</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-05 06:36:20</sys_updated_on>
+            <sys_updated_on>2025-08-05 11:27:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>x_event_id</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-05 06:36:20</sys_created_on>
-            <sys_id>8d948aab83032210de39f120feaad351</sys_id>
+            <sys_created_on>2025-08-05 11:27:53</sys_created_on>
+            <sys_id>77470f6f83472210de39f120feaad302</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Venue Details:" display_value="Venue Details:" name="x_1790195_event_ma_venue" sys_domain="global" view="Default view">80a8eddf83832210de39f120feaad327</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-05 06:36:20</sys_updated_on>
+            <sys_updated_on>2025-08-05 11:27:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>x_location</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-05 06:36:20</sys_created_on>
-            <sys_id>05948aab83032210de39f120feaad352</sys_id>
+            <sys_created_on>2025-08-05 11:27:53</sys_created_on>
+            <sys_id>fb470f6f83472210de39f120feaad302</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Venue Details:" display_value="Venue Details:" name="x_1790195_event_ma_venue" sys_domain="global" view="Default view">80a8eddf83832210de39f120feaad327</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-05 06:36:20</sys_updated_on>
+            <sys_updated_on>2025-08-05 11:27:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,41 +60,55 @@
             <element>x_capacity</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-05 06:36:20</sys_created_on>
-            <sys_id>89948aab83032210de39f120feaad352</sys_id>
+            <sys_created_on>2025-08-05 11:27:53</sys_created_on>
+            <sys_id>73470f6f83472210de39f120feaad303</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Venue Details:" display_value="Venue Details:" name="x_1790195_event_ma_venue" sys_domain="global" view="Default view">80a8eddf83832210de39f120feaad327</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-05 06:36:20</sys_updated_on>
+            <sys_updated_on>2025-08-05 11:27:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_status</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-05 11:27:53</sys_created_on>
+            <sys_id>f7470f6f83472210de39f120feaad303</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Venue Details:" display_value="Venue Details:" name="x_1790195_event_ma_venue" sys_domain="global" view="Default view">80a8eddf83832210de39f120feaad327</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-05 11:27:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>x_contact_person</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-05 06:36:20</sys_created_on>
-            <sys_id>01948aab83032210de39f120feaad353</sys_id>
+            <sys_created_on>2025-08-05 11:27:53</sys_created_on>
+            <sys_id>7f470f6f83472210de39f120feaad303</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Venue Details:" display_value="Venue Details:" name="x_1790195_event_ma_venue" sys_domain="global" view="Default view">80a8eddf83832210de39f120feaad327</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-05 06:36:20</sys_updated_on>
+            <sys_updated_on>2025-08-05 11:27:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>x_contact_number</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-05 06:36:20</sys_created_on>
-            <sys_id>85948aab83032210de39f120feaad353</sys_id>
+            <sys_created_on>2025-08-05 11:27:53</sys_created_on>
+            <sys_id>f3470f6f83472210de39f120feaad304</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Venue Details:" display_value="Venue Details:" name="x_1790195_event_ma_venue" sys_domain="global" view="Default view">80a8eddf83832210de39f120feaad327</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-05 06:36:20</sys_updated_on>
+            <sys_updated_on>2025-08-05 11:27:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

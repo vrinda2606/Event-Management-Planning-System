@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1790195_event_ma.TaskUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>TaskUtils</name>
+        <script><![CDATA[var TaskUtils = Class.create();
+TaskUtils.prototype = {
+    initialize: function(eventid) {
+        this.eventid = eventid;
+    },
+    getTasks: function() {
+        var res = [];
+        var eventtask = new GlideRecord('x_1790195_event_ma_event_task');
+        eventtask.addQuery('x_event_id', this.eventid);
+        eventtask.query();
+        if (eventtask.next()) {
+            res.push({
+                id: eventtask.getDisplayValue()
+            });
+        }
+        return JSON.stringify(res);
+
+    },
+    Overdue: function(taskid) {
+
+        var curr = new GlideDateTime();
+        var eventtask = new GlideRecord('x_1790195_event_ma_event_task');
+        eventtask.addQuery('number', taskid);
+        eventtask.query();
+        if (eventtask.next()) {
+            if (eventtask.getValue('x_due_date') > curr)
+                return "OverDue";
+        }
+        return 'Due';
+    },
+    getTaskById: function(taskid) {
+        var res = [];
+        var eventtask = new GlideRecord('x_1790195_event_ma_event_task');
+        eventtask.addQuery('number', taskid);
+        eventtask.query();
+        if (eventtask.next()) {
+            res.push({
+                id: eventtask.getDisplayValue(),
+                name: eventtask.getValue('x_task_name')
+            });
+        }
+        return JSON.stringify(res);
+    },
+    getTaskByDate: function(duedate) {
+        var res = [];
+        var eventtask = new GlideRecord('x_1790195_event_ma_event_task');
+        eventtask.addQuery('x_due_date', duedate);
+        eventtask.query();
+        if (eventtask.next()) {
+            res.push({
+                id: eventtask.getDisplayValue(),
+                name: eventtask.getValue('x_task_name')
+            });
+        }
+        return JSON.stringify(res);
+    },
+
+    type: 'TaskUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 14:38:58</sys_created_on>
+        <sys_id>5f50bb6f830b2210de39f120feaad3ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TaskUtils</sys_name>
+        <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1790195_event_ma">133c05db83032210de39f120feaad3a8</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Event Management &amp;amp; Planning System">133c05db83032210de39f120feaad3a8</sys_scope>
+        <sys_update_name>sys_script_include_5f50bb6f830b2210de39f120feaad3ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 14:38:58</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Management &amp;amp; Planning System">133c05db83032210de39f120feaad3a8</application>
+        <file_path/>
+        <instance_id>20148194eb7f8ad4e9bbfddacad0cde4</instance_id>
+        <instance_name>dev283588</instance_name>
+        <name>sys_script_include_5f50bb6f830b2210de39f120feaad3ab</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1790195_event_ma.TaskUtils&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;TaskUtils&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var TaskUtils = Class.create();
+TaskUtils.prototype = {
+    initialize: function(eventid) {
+        this.eventid = eventid;
+    },
+    getTasks: function() {
+        var res = [];
+        var eventtask = new GlideRecord('x_1790195_event_ma_event_task');
+        eventtask.addQuery('x_event_id', this.eventid);
+        eventtask.query();
+        if (eventtask.next()) {
+            res.push({
+                id: eventtask.getDisplayValue()
+            });
+        }
+        return JSON.stringify(res);
+
+    },
+    Overdue: function(taskid) {
+
+        var curr = new GlideDateTime();
+        var eventtask = new GlideRecord('x_1790195_event_ma_event_task');
+        eventtask.addQuery('number', taskid);
+        eventtask.query();
+        if (eventtask.next()) {
+            if (eventtask.getValue('x_due_date') &gt; curr)
+                return "OverDue";
+        }
+        return 'Due';
+    },
+    getTaskById: function(taskid) {
+        var res = [];
+        var eventtask = new GlideRecord('x_1790195_event_ma_event_task');
+        eventtask.addQuery('number', taskid);
+        eventtask.query();
+        if (eventtask.next()) {
+            res.push({
+                id: eventtask.getDisplayValue(),
+                name: eventtask.getValue('x_task_name')
+            });
+        }
+        return JSON.stringify(res);
+    },
+    getTaskByDate: function(duedate) {
+        var res = [];
+        var eventtask = new GlideRecord('x_1790195_event_ma_event_task');
+        eventtask.addQuery('x_due_date', duedate);
+        eventtask.query();
+        if (eventtask.next()) {
+            res.push({
+                id: eventtask.getDisplayValue(),
+                name: eventtask.getValue('x_task_name')
+            });
+        }
+        return JSON.stringify(res);
+    },
+
+    type: 'TaskUtils'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-05 14:38:58&lt;/sys_created_on&gt;&lt;sys_id&gt;5f50bb6f830b2210de39f120feaad3ab&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;TaskUtils&lt;/sys_name&gt;&lt;sys_package display_value="Event Management &amp;amp;amp; Planning System" source="x_1790195_event_ma"&gt;133c05db83032210de39f120feaad3a8&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Event Management &amp;amp;amp; Planning System"&gt;133c05db83032210de39f120feaad3a8&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_5f50bb6f830b2210de39f120feaad3ab&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-05 14:38:58&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-909213273</payload_hash>
+        <record_name>TaskUtils</record_name>
+        <reverted_from/>
+        <source>c880ee6f83832210de39f120feaad3a9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 14:38:58</sys_created_on>
+        <sys_id>be033323834b2210de39f120feaad309</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1987aabd54f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 14:38:58</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>b2033323c44b2210812292aa9b1c6309</update_guid>
+        <update_guid_history>b2033323c44b2210812292aa9b1c6309:-909213273</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 15:00:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>2ff0f86fe6f246dcb2d00d315c96e724</sys_id>
+        <sys_metadata>5f50bb6f830b2210de39f120feaad3ab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TaskUtils</sys_name>
+        <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1790195_event_ma">133c05db83032210de39f120feaad3a8</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Event Management &amp;amp; Planning System">133c05db83032210de39f120feaad3a8</sys_scope>
+        <sys_scope_delete display_value="">0a3e1f83c66c442c82c5cd97d821f910</sys_scope_delete>
+        <sys_update_name>sys_script_include_5f50bb6f830b2210de39f120feaad3ab</sys_update_name>
+        <sys_update_version display_value="sys_script_include_5f50bb6f830b2210de39f120feaad3ab">be033323834b2210de39f120feaad309</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 15:00:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

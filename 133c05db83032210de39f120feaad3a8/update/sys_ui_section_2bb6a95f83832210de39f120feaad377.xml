@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-04 20:41:08</sys_created_on>
-            <sys_id>1a5cb393838f2210de39f120feaad334</sys_id>
+            <sys_created_on>2025-08-05 11:22:52</sys_created_on>
+            <sys_id>1226472f83472210de39f120feaad32a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Budget Details:" display_value="Budget Details:" name="x_1790195_event_ma_budget" sys_domain="global" view="Default view">2bb6a95f83832210de39f120feaad377</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-04 20:41:08</sys_updated_on>
+            <sys_updated_on>2025-08-05 11:22:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,55 +18,69 @@
             <element>x_event_id</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-04 20:41:08</sys_created_on>
-            <sys_id>9e5cb393838f2210de39f120feaad334</sys_id>
+            <sys_created_on>2025-08-05 11:22:52</sys_created_on>
+            <sys_id>9a26472f83472210de39f120feaad32a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Budget Details:" display_value="Budget Details:" name="x_1790195_event_ma_budget" sys_domain="global" view="Default view">2bb6a95f83832210de39f120feaad377</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-04 20:41:08</sys_updated_on>
+            <sys_updated_on>2025-08-05 11:22:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_status</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-05 11:22:52</sys_created_on>
+            <sys_id>1226472f83472210de39f120feaad32b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Budget Details:" display_value="Budget Details:" name="x_1790195_event_ma_budget" sys_domain="global" view="Default view">2bb6a95f83832210de39f120feaad377</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-05 11:22:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>x_total_budget</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-04 20:41:08</sys_created_on>
-            <sys_id>165cb393838f2210de39f120feaad335</sys_id>
+            <sys_created_on>2025-08-05 11:22:52</sys_created_on>
+            <sys_id>9626472f83472210de39f120feaad32b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Budget Details:" display_value="Budget Details:" name="x_1790195_event_ma_budget" sys_domain="global" view="Default view">2bb6a95f83832210de39f120feaad377</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-04 20:41:08</sys_updated_on>
+            <sys_updated_on>2025-08-05 11:22:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>x_amount_spent</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-04 20:41:08</sys_created_on>
-            <sys_id>9a5cb393838f2210de39f120feaad335</sys_id>
+            <sys_created_on>2025-08-05 11:22:52</sys_created_on>
+            <sys_id>1e26472f83472210de39f120feaad32b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Budget Details:" display_value="Budget Details:" name="x_1790195_event_ma_budget" sys_domain="global" view="Default view">2bb6a95f83832210de39f120feaad377</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-04 20:41:08</sys_updated_on>
+            <sys_updated_on>2025-08-05 11:22:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>x_amount_remaining</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-04 20:41:08</sys_created_on>
-            <sys_id>125cb393838f2210de39f120feaad336</sys_id>
+            <sys_created_on>2025-08-05 11:22:52</sys_created_on>
+            <sys_id>9226472f83472210de39f120feaad32c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Budget Details:" display_value="Budget Details:" name="x_1790195_event_ma_budget" sys_domain="global" view="Default view">2bb6a95f83832210de39f120feaad377</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-04 20:41:08</sys_updated_on>
+            <sys_updated_on>2025-08-05 11:22:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
