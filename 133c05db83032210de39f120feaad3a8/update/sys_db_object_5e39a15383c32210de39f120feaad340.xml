@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
     <sys_db_object action="INSERT_OR_UPDATE">
-        <access>package_private</access>
+        <access>public</access>
         <actions_access>false</actions_access>
         <alter_access>false</alter_access>
         <caller_access/>
@@ -22,14 +22,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-04 09:58:48</sys_created_on>
         <sys_id>5e39a15383c32210de39f120feaad340</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Schedule</sys_name>
         <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1790195_event_ma">133c05db83032210de39f120feaad3a8</sys_package>
         <sys_policy/>
         <sys_scope display_value="Event Management &amp;amp; Planning System">133c05db83032210de39f120feaad3a8</sys_scope>
         <sys_update_name>sys_db_object_5e39a15383c32210de39f120feaad340</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-04 09:58:50</sys_updated_on>
+        <sys_updated_on>2025-08-04 21:51:47</sys_updated_on>
         <update_access>false</update_access>
         <user_role display_value="x_1790195_event_ma.schedule_user" name="x_1790195_event_ma.schedule_user">4559a15383c32210de39f120feaad347</user_role>
         <ws_access>false</ws_access>

@@ -8,6 +8,7 @@
         <element attributes="edge_encryption_enabled=true" label="Location" max_length="40" name="x_location" type="string"/>
         <element label="Capacity" max_length="40" name="x_capacity" type="integer"/>
         <element label="Capacity" max_length="40" name="capacity" type="integer"/>
+        <element attributes="encode_utf8=false" label="Event Id" max_length="32" name="x_event_id" reference="x_1790195_event_ma_event_record" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Venue Name" max_length="40" name="x_venue_name" type="string"/>
     </element>
 </database>

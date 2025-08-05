@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2025-08-05 08:40:25">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 06:57:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4279062383432210de39f120feaad328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Tab 1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1790195_event_ma">133c05db83032210de39f120feaad3a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp;amp; Planning System">133c05db83032210de39f120feaad3a8</sys_scope>
+        <sys_update_name>sys_portal_page_4279062383432210de39f120feaad328</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 06:57:42</sys_updated_on>
+        <title>New Tab 1</title>
+        <user/>
+        <view>new_tab_1_1</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="New Tab 1">4279062383432210de39f120feaad328</page>
+                <summary>budget allocation and spending by event</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2025-08-05 07:00:10</sys_created_on>
+                <sys_id>4e0aca2383432210de39f120feaad391</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2025-08-05 07:00:10</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2025-08-05 00:00:10">4e0aca2383432210de39f120feaad391</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 07:00:10</sys_created_on>
+                        <sys_id>120aca2383432210de39f120feaad393</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 07:00:10</sys_updated_on>
+                        <value>budget allocation and spending by event</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2025-08-05 00:00:10">4e0aca2383432210de39f120feaad391</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 07:00:10</sys_created_on>
+                        <sys_id>160aca2383432210de39f120feaad392</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 07:00:10</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2025-08-05 00:00:10">4e0aca2383432210de39f120feaad391</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 07:00:10</sys_created_on>
+                        <sys_id>5e0aca2383432210de39f120feaad392</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 07:00:10</sys_updated_on>
+                        <value>pie</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2025-08-05 00:00:10">4e0aca2383432210de39f120feaad391</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 07:00:10</sys_created_on>
+                        <sys_id>9a0aca2383432210de39f120feaad392</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 07:00:10</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2025-08-05 00:00:10">4e0aca2383432210de39f120feaad391</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 07:00:10</sys_created_on>
+                        <sys_id>ce0aca2383432210de39f120feaad391</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 07:00:10</sys_updated_on>
+                        <value>f2d0ce6783032210de39f120feaad328</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2025-08-05 00:00:10">4e0aca2383432210de39f120feaad391</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 07:00:10</sys_created_on>
+                        <sys_id>d60aca2383432210de39f120feaad392</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 07:00:10</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="New Tab 1">4279062383432210de39f120feaad328</page>
+                <summary>feedback ratings by event</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2025-08-05 06:59:59</sys_created_on>
+                <sys_id>6ff90e2383432210de39f120feaad3ed</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2025-08-05 06:59:59</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2025-08-04 23:59:59">6ff90e2383432210de39f120feaad3ed</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 06:59:59</sys_created_on>
+                        <sys_id>23f90e2383432210de39f120feaad3ef</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 06:59:59</sys_updated_on>
+                        <value>feedback ratings by event</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2025-08-04 23:59:59">6ff90e2383432210de39f120feaad3ed</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 06:59:59</sys_created_on>
+                        <sys_id>27f90e2383432210de39f120feaad3ee</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 06:59:59</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2025-08-04 23:59:59">6ff90e2383432210de39f120feaad3ed</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 06:59:59</sys_created_on>
+                        <sys_id>6ff90e2383432210de39f120feaad3ee</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 06:59:59</sys_updated_on>
+                        <value>pie</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2025-08-04 23:59:59">6ff90e2383432210de39f120feaad3ed</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 06:59:59</sys_created_on>
+                        <sys_id>abf90e2383432210de39f120feaad3ee</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 06:59:59</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2025-08-04 23:59:59">6ff90e2383432210de39f120feaad3ed</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 06:59:59</sys_created_on>
+                        <sys_id>e7f90e2383432210de39f120feaad3ee</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 06:59:59</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2025-08-04 23:59:59">6ff90e2383432210de39f120feaad3ed</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 06:59:59</sys_created_on>
+                        <sys_id>eff90e2383432210de39f120feaad3ed</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 06:59:59</sys_updated_on>
+                        <value>690182a783032210de39f120feaad3fd</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="New Tab 1">4279062383432210de39f120feaad328</page>
+                <summary>venue details by event</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2025-08-05 06:59:47</sys_created_on>
+                <sys_id>70f9ce2383432210de39f120feaad327</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2025-08-05 06:59:48</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2025-08-04 23:59:47">70f9ce2383432210de39f120feaad327</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 06:59:48</sys_created_on>
+                        <sys_id>34f9ce2383432210de39f120feaad328</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 06:59:48</sys_updated_on>
+                        <value>venue details by event</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2025-08-04 23:59:47">70f9ce2383432210de39f120feaad327</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 06:59:48</sys_created_on>
+                        <sys_id>38f9ce2383432210de39f120feaad327</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 06:59:48</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2025-08-04 23:59:47">70f9ce2383432210de39f120feaad327</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 06:59:48</sys_created_on>
+                        <sys_id>70f9ce2383432210de39f120feaad328</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 06:59:48</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2025-08-04 23:59:47">70f9ce2383432210de39f120feaad327</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 06:59:48</sys_created_on>
+                        <sys_id>bcf9ce2383432210de39f120feaad327</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 06:59:48</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2025-08-04 23:59:47">70f9ce2383432210de39f120feaad327</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 06:59:48</sys_created_on>
+                        <sys_id>f0f9ce2383432210de39f120feaad327</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 06:59:48</sys_updated_on>
+                        <value>30474e6f83032210de39f120feaad341</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2025-08-04 23:59:47">70f9ce2383432210de39f120feaad327</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 06:59:48</sys_created_on>
+                        <sys_id>f8f9ce2383432210de39f120feaad327</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 06:59:48</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="New Tab 1">4279062383432210de39f120feaad328</page>
+                <summary>vendors by event</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2025-08-05 07:01:08</sys_created_on>
+                <sys_id>944ac26383432210de39f120feaad3e1</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2025-08-05 07:01:08</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2025-08-05 00:01:08">944ac26383432210de39f120feaad3e1</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 07:01:08</sys_created_on>
+                        <sys_id>104ac26383432210de39f120feaad3e2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 07:01:08</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2025-08-05 00:01:08">944ac26383432210de39f120feaad3e1</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 07:01:08</sys_created_on>
+                        <sys_id>184ac26383432210de39f120feaad3e1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 07:01:08</sys_updated_on>
+                        <value>6a50c26783032210de39f120feaad3f1</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2025-08-05 00:01:08">944ac26383432210de39f120feaad3e1</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 07:01:08</sys_created_on>
+                        <sys_id>584ac26383432210de39f120feaad3e2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 07:01:08</sys_updated_on>
+                        <value>vendors by event</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2025-08-05 00:01:08">944ac26383432210de39f120feaad3e1</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 07:01:08</sys_created_on>
+                        <sys_id>5c4ac26383432210de39f120feaad3e1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 07:01:08</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2025-08-05 00:01:08">944ac26383432210de39f120feaad3e1</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 07:01:08</sys_created_on>
+                        <sys_id>944ac26383432210de39f120feaad3e2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 07:01:08</sys_updated_on>
+                        <value>pie</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2025-08-05 00:01:08">944ac26383432210de39f120feaad3e1</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 07:01:08</sys_created_on>
+                        <sys_id>d04ac26383432210de39f120feaad3e2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 07:01:08</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="New Tab 1">4279062383432210de39f120feaad328</page>
+                <summary>schedule details by event</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2025-08-05 06:58:10</sys_created_on>
+                <sys_id>b499caef83032210de39f120feaad374</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2025-08-05 06:58:10</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2025-08-04 23:58:10">b499caef83032210de39f120feaad374</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 06:58:10</sys_created_on>
+                        <sys_id>0599caef83032210de39f120feaad376</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 06:58:10</sys_updated_on>
+                        <value>schedule details by event</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2025-08-04 23:58:10">b499caef83032210de39f120feaad374</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 06:58:10</sys_created_on>
+                        <sys_id>0999caef83032210de39f120feaad375</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 06:58:10</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2025-08-04 23:58:10">b499caef83032210de39f120feaad374</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 06:58:10</sys_created_on>
+                        <sys_id>4199caef83032210de39f120feaad376</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 06:58:10</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2025-08-04 23:58:10">b499caef83032210de39f120feaad374</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 06:58:10</sys_created_on>
+                        <sys_id>4d99caef83032210de39f120feaad374</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 06:58:10</sys_updated_on>
+                        <value>c41842af83032210de39f120feaad321</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2025-08-04 23:58:10">b499caef83032210de39f120feaad374</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 06:58:10</sys_created_on>
+                        <sys_id>8d99caef83032210de39f120feaad375</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 06:58:10</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2025-08-04 23:58:10">b499caef83032210de39f120feaad374</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 06:58:10</sys_created_on>
+                        <sys_id>c999caef83032210de39f120feaad375</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 06:58:10</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="New Tab 1">4279062383432210de39f120feaad328</page>
+                <summary>tasks by status</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2025-08-05 07:01:55</sys_created_on>
+                <sys_id>bb6ac2a383432210de39f120feaad340</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2025-08-05 07:01:55</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2025-08-05 00:01:55">bb6ac2a383432210de39f120feaad340</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 07:01:55</sys_created_on>
+                        <sys_id>376ac2a383432210de39f120feaad341</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 07:01:55</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2025-08-05 00:01:55">bb6ac2a383432210de39f120feaad340</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 07:01:55</sys_created_on>
+                        <sys_id>3f6ac2a383432210de39f120feaad340</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 07:01:55</sys_updated_on>
+                        <value>050f71e383032210de39f120feaad3cc</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2025-08-05 00:01:55">bb6ac2a383432210de39f120feaad340</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 07:01:55</sys_created_on>
+                        <sys_id>736ac2a383432210de39f120feaad341</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 07:01:55</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2025-08-05 00:01:55">bb6ac2a383432210de39f120feaad340</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 07:01:55</sys_created_on>
+                        <sys_id>7f6ac2a383432210de39f120feaad341</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 07:01:55</sys_updated_on>
+                        <value>tasks by status</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2025-08-05 00:01:55">bb6ac2a383432210de39f120feaad340</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 07:01:55</sys_created_on>
+                        <sys_id>bb6ac2a383432210de39f120feaad341</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 07:01:55</sys_updated_on>
+                        <value>pie</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2025-08-05 00:01:55">bb6ac2a383432210de39f120feaad340</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 07:01:55</sys_created_on>
+                        <sys_id>f76ac2a383432210de39f120feaad341</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 07:01:55</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="New Tab 1">4279062383432210de39f120feaad328</page>
+                <summary>attendees by event</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2025-08-05 07:02:30</sys_created_on>
+                <sys_id>e09a4a6383432210de39f120feaad300</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2025-08-05 07:02:31</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2025-08-05 00:02:30">e09a4a6383432210de39f120feaad300</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 07:02:30</sys_created_on>
+                        <sys_id>209a4a6383432210de39f120feaad301</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 07:02:30</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2025-08-05 00:02:30">e09a4a6383432210de39f120feaad300</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 07:02:30</sys_created_on>
+                        <sys_id>649a4a6383432210de39f120feaad300</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 07:02:30</sys_updated_on>
+                        <value>4c5f7de383032210de39f120feaad333</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2025-08-05 00:02:30">e09a4a6383432210de39f120feaad300</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 07:02:30</sys_created_on>
+                        <sys_id>6c9a4a6383432210de39f120feaad300</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 07:02:30</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2025-08-05 00:02:30">e09a4a6383432210de39f120feaad300</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 07:02:31</sys_created_on>
+                        <sys_id>a49a4a6383432210de39f120feaad301</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 07:02:31</sys_updated_on>
+                        <value>attendees by event</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2025-08-05 00:02:30">e09a4a6383432210de39f120feaad300</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 07:02:30</sys_created_on>
+                        <sys_id>a89a4a6383432210de39f120feaad300</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 07:02:30</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2025-08-05 00:02:30">e09a4a6383432210de39f120feaad300</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 07:02:30</sys_created_on>
+                        <sys_id>e09a4a6383432210de39f120feaad301</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 07:02:30</sys_updated_on>
+                        <value>pie</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="New Tab 1">4279062383432210de39f120feaad328</page>
+                <summary>events by status</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2025-08-05 07:01:42</sys_created_on>
+                <sys_id>f06a0e2383432210de39f120feaad3fc</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2025-08-05 07:01:43</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2025-08-05 00:01:42">f06a0e2383432210de39f120feaad3fc</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 07:01:43</sys_created_on>
+                        <sys_id>306a0e2383432210de39f120feaad3fd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 07:01:43</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2025-08-05 00:01:42">f06a0e2383432210de39f120feaad3fc</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 07:01:42</sys_created_on>
+                        <sys_id>746a0e2383432210de39f120feaad3fc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 07:01:42</sys_updated_on>
+                        <value>808e35a383032210de39f120feaad314</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2025-08-05 00:01:42">f06a0e2383432210de39f120feaad3fc</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 07:01:42</sys_created_on>
+                        <sys_id>7c6a0e2383432210de39f120feaad3fc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 07:01:42</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2025-08-05 00:01:42">f06a0e2383432210de39f120feaad3fc</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 07:01:43</sys_created_on>
+                        <sys_id>b46a0e2383432210de39f120feaad3fd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 07:01:43</sys_updated_on>
+                        <value>events by status</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2025-08-05 00:01:42">f06a0e2383432210de39f120feaad3fc</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 07:01:42</sys_created_on>
+                        <sys_id>b86a0e2383432210de39f120feaad3fc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 07:01:42</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2025-08-05 00:01:42">f06a0e2383432210de39f120feaad3fc</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2025-08-05 07:01:43</sys_created_on>
+                        <sys_id>f06a0e2383432210de39f120feaad3fd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2025-08-05 07:01:43</sys_updated_on>
+                        <value>pie</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>
